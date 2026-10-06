@@ -1,5 +1,7 @@
 # video-audio-generator
 
+> **Originally built: 2018.** Historical archive. This code reflects the tools, APIs, browser constraints, and coding practices of that period, not my current stack or standards.
+
 Generates sound using Python and PureData. The openCV library, for Python, is used to capture video from a Playstation Eye camera, finds the average color for a given frame, then assigns a note from the C major scale to the average, and sends the assigned note to PureData. 
 
 The PureData file consists of a simple oscillator, that outputs third octave notes sent from the Python script.
